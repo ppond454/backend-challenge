@@ -61,7 +61,7 @@ func encode(str string) (string, error) {
 		case "=":
 			result = append(result, result[pre])
 		default:
-			return "", errors.New("please type only '=','R','L'")
+			return "", errors.New("please filled only '=','R','L'")
 		}
 	}
 
